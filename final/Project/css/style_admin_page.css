@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('/final/Project/images/pageImage/wall.jpg');
+    /*    background: linear-gradient(120deg, #2980b9, #8e44ad);*/
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border="1";
+    border-color: black;
+    width: 50;
+
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#tb1:nth-child(odd) {
+    background-color: white;
+}
+
+#tb2:nth-child(odd) {
+    background-color: white;
+}
+
+.glow {
+    font-size: 60px;
+      color: linear-gradient(120deg, #2980b9, #8e44ad);
+/*    color: white;*/
+    text-align: center;
+/*    background: linear-gradient(120deg, #2980b9, #8e44ad);*/
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: cursive;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+
